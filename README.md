@@ -9,7 +9,6 @@ pkg install nodejs -y
 
 pip install requests bs4 futures mechanize
 
-rm -rf qurat
 
 git clone https://github.com/MAHDI-Shuvo/lol
 
