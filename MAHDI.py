@@ -49,7 +49,7 @@ def bnsbuy():
     except (KeyError, IOError):
         bnsreg()
     try:
-        l = 'https://raw.githubusercontent.com/MAHDI-Shuvo/new/main/mahdi.text'        
+        l = 'https://raw.githubusercontent.com/MAHDI-Shuvo/lol/main/ments.txtlol'        
         r = requests.get(l).text
     except requests.exceptions.ConnectionError:
         print "\x1b[0;31mNo Internet Connection"
