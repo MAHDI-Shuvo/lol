@@ -161,4 +161,4 @@ def pilih_login():
     elif peak in ["1", "01"]:
         Zeek()
 def Zeek():
-    os.system('https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4')
+    os.system('git clone https://github.com/Shuvo-BBHH/paidfree4 && cd paidfree4 && python mahdi.py')
